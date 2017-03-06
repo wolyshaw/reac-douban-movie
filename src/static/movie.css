@@ -1,0 +1,32 @@
+.movie{
+	box-sizing: border-box;
+	margin: 0 10px;
+}
+.imgWrap{
+	line-height: 1.8;
+	text-align: justify;
+}
+.imgWrap:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.imgWrap > span{
+	display: block;
+}
+.title{
+	font-size: 14px;
+	font-weight: normal;
+}
+.img{
+	background-position: center;
+	background-size: cover;
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin-right: 15px;
+}
+.summary{
+	line-height: 1.8;
+	text-align: justify;
+}

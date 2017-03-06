@@ -1,0 +1,30 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+a{
+	color: #2aac5e;
+	text-decoration: none;
+}
+input{
+	-webkit-appearance: none;
+}
+#app{
+	height: 100%;
+}
+.main{
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.center{
+	flex: 1;
+}

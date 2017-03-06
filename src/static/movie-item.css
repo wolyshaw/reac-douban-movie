@@ -1,0 +1,29 @@
+.item{
+	width: 100px;
+	margin-left: 15px;
+	overflow: hidden;
+	float: left;
+	display: block;
+	color: #494949;
+}
+.item:last-of-type{
+	margin-right: 15px;
+}
+.title{
+	text-overflow: ellipsis;
+	max-width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal;
+}
+.genres{
+	composes: title;
+	display: block;
+}
+.img{
+	width: 100px;
+	height: 150px;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}

@@ -1,0 +1,34 @@
+.ViewList{
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+.ViewList:last-of-type{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.header{
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+}
+.more{
+	float: right;
+}
+.contentWrap{
+	overflow: auto;
+}
+.contentWrap::-webkit-scrollbar{
+	height: 0;
+}
+.content{
+	zoom: 1;
+	width: 1165px;
+}
+.content:after{
+	clear: both;
+	display: block;
+	content: '';
+}
